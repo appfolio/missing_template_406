@@ -1,0 +1,13 @@
+= MissingTemplate406
+
+Modifies ``ActionController::Base`` such that, in production,
+``ActionView::MissingTemplate`` exceptions are caught and an HTTP 406-Not
+Acceptable response is rendered.
+
+This gem should work with all Rails 4 versions.
+
+Rails 5 raises a ``ActionController::UnknownFormat`` when attempting to request
+a format that does not have a template. In production mode, this exception is
+implicitly converted to a 406-Not Acceptable HTTP response. As a result of
+Rails 5 having the desired behavior, the 406 response, this gem will raise an
+exception on include.

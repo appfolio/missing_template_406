@@ -1,0 +1,9 @@
+AllCops:
+  Exclude:
+    - 'test/dummy/**/*'
+
+Metrics/LineLength:
+  Max: 101
+
+Style/Documentation:
+  Enabled: false
