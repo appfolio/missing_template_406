@@ -1,6 +1,7 @@
 # Rails 4 Plugin: missing_template_406
 
 [![Gem](https://img.shields.io/gem/v/missing_template_406.svg?maxAge=2592000?style=plastic)](https://rubygems.org/gems/missing_template_406)
+[![Build Status](https://travis-ci.org/appfolio/missing_template_406.svg?branch=master)](https://travis-ci.org/appfolio/missing_template_406)
 
 Modifies `ActionController::Base` such that, in production,
 `ActionView::MissingTemplate` exceptions are caught and an HTTP 406-Not

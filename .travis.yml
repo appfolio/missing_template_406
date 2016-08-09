@@ -1,0 +1,18 @@
+cache: bundler
+gemfile:
+  - gemfiles/rails_4.0.gemfile
+  - gemfiles/rails_4.1.gemfile
+  - gemfiles/rails_4.2.gemfile
+language: ruby
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+rvm:
+  - 2.0.0
+  - 2.1.10
+  - 2.2.5
+  - 2.3.1
+  - ruby-head
+script:
+  - bundle exec rubocop
+  - bundle exec rake test
