@@ -24,5 +24,6 @@ Gem::Specification.new do |s|
   # Rails 5 should not be supported by this gem.
   s.add_dependency 'rails', '~> 4.0'
 
+  s.add_development_dependency 'appraisal', '~> 2.1'
   s.add_development_dependency 'mocha', '~> 1.1'
 end
