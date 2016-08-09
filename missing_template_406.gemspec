@@ -26,4 +26,5 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'appraisal', '~> 2.1'
   s.add_development_dependency 'mocha', '~> 1.1'
+  s.add_development_dependency 'rubocop', '~> 0.42'
 end

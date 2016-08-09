@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - 'test/dummy/**/*'
+    - 'gemfiles/**/*'
 
 Metrics/LineLength:
   Max: 101
