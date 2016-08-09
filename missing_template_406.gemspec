@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile',
-                'README.rdoc']
+                'README.md']
   s.test_files = Dir['test/**/*']
 
   # Rails 5 should not be supported by this gem.
