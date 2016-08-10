@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    missing_template_406 (0.0.1)
+    missing_template_406 (1.0.0)
       rails (~> 4.0)
 
 GEM
